@@ -1,11 +1,12 @@
 import { generarId } from "./funciones"
+import type {Cita} from './types'
 
 let editando = {
     value: false
 }
 
 // Objeto de Cita
-const citaObj = {
+const citaObj: Cita = {
     id: generarId(),
     paciente: '',
     propietario: '',
